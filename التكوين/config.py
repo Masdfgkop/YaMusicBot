@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "10783587"))
+API_HASH = getenv("API_HASH", "e9db44618c104f9c098bd64a84ec0192")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5561548999:AAF1mEkdITAKtkZhl-71vsFKzOAfpRSaxcQ")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001734495918"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "TOP MUSIC​")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "5401732523").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/YafaMusic/YaMusicBot",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "YaFaMuBot"
+    "BOT_USERNAME", "AC_ON_BOT"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,19 +68,19 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "YY8GG"
+    "CHANNEL_SUDO", "s_s_s_xe"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "بينتيريست - Pinterest"
+    "YAFA_NAME", "انت᪼ ليᩬ ♥️🜝 - Pinterest"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/YY8GG"
+   " YAFA_CHANNEL", "https://t.me/s_s_s_xe"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "SUPPORT_CHANNEL", "https://t.me/s_s_s_xe" 
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "SUPPORT_GROUP", "https://t.me/vz_vr" 
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -147,7 +147,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "AgBlFQUDuPj6ogkxvVIFbzdNlzLFTLkMAqnNPItOAlezu6xx7BQGdNZbN6ltewB3-MVXQeyxtwbf3Tm2VYEbMLQtGKjWdF-4hOVMecSzqA3i5g7s8fJPUCJorBVN6SrI2CdoU_v52wHlA4I9i6aISmZejH3osO2GFGXr2pFbtP-QvSD3Zli8s-QuEwtHeWZ9AxmGTYCazALzSsFeQUj_AgS5OcJg58nnOnz7vVO6MSGzqzro7G7vyZ0ZOe_V-Td-6pNgVOya2iv4-0BhiosUgt-GS8NVbnCiDcZJ93gGZasmtTm_49vzphxJUFny1GaX36xt2kFWqBYWmgIE86sSVlwlAAAAATW-qeYA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
